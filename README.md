@@ -1,9 +1,7 @@
-JFugue
+JFugue: Java API for Music Programming
 ======
 
-JFugue is a Java API for Music Programming.
-
-With JFugue. you can make music in your Java program, and it's as easy as this:
+With JFugue, you can make music in your Java program, and it's as easy as this:
 
 Player player = new Player();
 
