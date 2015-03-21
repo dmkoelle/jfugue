@@ -1,7 +1,7 @@
 JFugue: Java API for Music Programming
 ============
 
-![Logo](website/static/logo.png)
+![Logo](website/static/jfugue_logo.png)
 
 JFugue encourages people of all ages to experiment with the expressive power of music.
 Generate musical data interactively or algorithmically, use musical patterns, rhythms,
@@ -9,7 +9,7 @@ elements of music theory, including chords and chord progressions, communicate t
 MIDI devices, such as musical keyboards, mixers and more. 
 
 
-Create music with only a few lines of code!
+__Create music with only a few lines of code!__
 ```java
 import org.jfugue.player.Player;
 
