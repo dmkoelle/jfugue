@@ -1,12 +1,44 @@
 JFugue: Java API for Music Programming
-======
+============
 
-With JFugue, you can make music in your Java program, and it's as easy as this:
+![Logo](website/static/jfugue_logo.png)
 
-Player player = new Player();
+JFugue encourages people of all ages to experiment with the expressive power of music.
+Generate musical data interactively or algorithmically, use musical patterns, rhythms,
+elements of music theory, including chords and chord progressions, communicate to external
+MIDI devices, such as musical keyboards, mixers and more. 
 
-player.play("C D E F G A B");
 
-JFugue supports a bunch of additional features, including musical patterns, rhythms, elements of music theory (including chords and chord progressions), and so much more.
+__Create music with only a few lines of code!__
+```java
+import org.jfugue.player.Player;
 
-For more details, please see http://www.JFugue.org
+public class HelloWorld {
+  public static void main(String[] args) {
+    Player player = new Player();
+    player.play("C D E F G A B");
+  }
+}
+```
+
+For documentation see [JFugue API][1].
+
+
+Download
+--------
+
+Download [the latest JAR][2]:
+
+
+License
+-------
+
+    Copyright © 2002-2015 David Koelle. All rights reserved.
+
+    // Enter Licence Type Here
+
+
+
+ 
+ [1]: http://www.jfugue.org/doc/index.html
+ [2]: http://www.jfugue.org/jfugue-5.0.1.jar
